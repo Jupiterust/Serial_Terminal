@@ -1,0 +1,20 @@
+[project]
+name = "serial-debug-cli"
+version = "0.1.0"
+description = "A cross-platform serial debug terminal for the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "prompt_toolkit>=3.0.43",
+    "pyserial>=3.5",
+]
+
+[project.scripts]
+serial-debug = "serial_debug_cli.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
