@@ -1,4 +1,4 @@
-# Serial Debug CLI Tool
+# Serial Debug CLI Tool 😎🐙
 
 轻量跨平台串口调试终端，专注终端交互、历史输入、HEX/ASCII 双向收发、多编码显示和带时间戳日志。
 
